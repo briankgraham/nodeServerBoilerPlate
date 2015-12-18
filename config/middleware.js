@@ -8,7 +8,7 @@ module.exports = function (app, express) {
 
   app.use(bodyParser.urlencoded({extended : true}));
   app.use(bodyParser.json());
-  app.use(express.static(__dirname + '/../dist'));
+  app.use(express.static(__dirname)); // Modify this to tell Express where to find static files
 
   app.use('/api/users', userRouter);
   app.use('/api/leagues', leagueRouter);
