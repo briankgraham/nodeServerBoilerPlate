@@ -1,0 +1,24 @@
+{
+  "name": "nodeserverboilerplate",
+  "version": "1.0.0",
+  "description": "Repo to quickly startup a node server with express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbrightmatterx/nodeServerBoilerPlate.git"
+  },
+  "author": "Brian Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xbrightmatterx/nodeServerBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/xbrightmatterx/nodeServerBoilerPlate#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}
